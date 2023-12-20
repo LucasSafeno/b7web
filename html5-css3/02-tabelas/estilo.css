@@ -1,0 +1,24 @@
+table {
+  width: 600px;
+}
+table thead {
+  background-color: #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #ccc;
+}
+
+tbody td:nth-child(even) {
+  background-color: #eee;
+}
+/* th,
+td {
+  border: 1px solid black;
+} */
