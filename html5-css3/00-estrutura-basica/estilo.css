@@ -1,0 +1,24 @@
+/*
+  Seletor ID - #
+  Apenas um elemento pode ter ID por página
+*/
+#titulo{color: green;}
+/*
+  Seletor class - .
+  Mais de um elemento pode ter a mesma class
+*/
+.texto{color: red;}
+
+/*
+  Selecionar um itemd entro de outro
+*/
+
+ol li{
+  color: pink;
+}
+
+/*
+  Seletor tag
+  Seleciona todos os elementos com a tag selecionada
+*/
+h1{color: red;}
