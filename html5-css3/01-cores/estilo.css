@@ -1,0 +1,15 @@
+#titulo {
+  /* background-color: red; */
+  /*background-color: rgb(0, 0, 0); */
+  background-color: #ff0000;
+  color: rgb(100, 50, 200);
+}
+
+/*
+  R = Red
+  G = Green
+  B = Blue
+
+  PRETO : R = 0%, G = 0%, B = 0% 
+  BRANCO : R = 100%. G = 100%, B = 100%
+*/
