@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+
+.box{
+  background-color: #999;
+  width: 100vw;
+  height: 50vh;
+}
+
+
+/*
+  vw => view width
+  vh => view height. Diferença da porcentagem é que o VH não refere ao espaço do elemento e sim da viewport
+
+*/
