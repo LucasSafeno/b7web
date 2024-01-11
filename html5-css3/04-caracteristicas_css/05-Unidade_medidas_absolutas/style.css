@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+.container{
+  width: 300px;
+  height: 300pt;
+  background-color: #999;
+}
+
+/* 
+    -> Medicas absolutas <-
+        * px - Pixels
+        * pt - Points = Mais usado em fontes.( Mais usado em impressões pois mais se aproxima com exatidão)
+        * in - Polegadas
+        * cm - Cemtimetros 
+*/
