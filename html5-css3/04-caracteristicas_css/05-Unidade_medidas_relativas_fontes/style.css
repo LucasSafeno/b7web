@@ -1,4 +1,4 @@
-html{
+/*html{
   font-size: 10px;
 }
 body{
@@ -17,11 +17,30 @@ h1{
   background-color: #999;
 }
 
-/*
+
   -> Unidade de medidas relativas fontes <-
     - em  => Baseado no font-size do elemento pai
     - rem => Baseado no primeiro elemento que estiver na estrutura
+    - ex => Baseada no tipo de fonte. O tamanho dela vai ser baseado no tamanho da letra X. caso não consiga achar o X, vai ser beseado nos 16px
+    - ch => Funciona apenas com fontes monospace's
+        ***Valor padrão font-size : 16px
 
-    Valor padrão font-size : 16px
+  -> Unidade de Medidas Relativas <-
+    - % => Porcentagem. Quando elemento for interno, vai se basear no elemento pai
+
+    
 
 */
+body{
+  font-family: Courier;
+}
+
+.box {
+  width: 300px;
+  background-color: #999;
+}
+.box-interno{
+  background-color: #333;
+  color: white;
+  width: 15ch;
+}
