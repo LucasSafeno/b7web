@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+.container{
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: #CCC;
+  color: #FF0000;
+  margin: 2px;
+}
+/*
+Ordem : 1 - primeiro aqui
+        2 - Style
+        3 - Inline
+*/
