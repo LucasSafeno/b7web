@@ -1,0 +1,27 @@
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 20px;
+}
+h1{
+  font-size: 3rem;
+}
+.box{
+  font-size: 2rem;
+}
+
+.box-interno{
+  width: 10rem;
+  height: 10rem;
+  background-color: #999;
+}
+
+/*
+  -> Unidade de medidas relativas fontes <-
+    - em  => Baseado no font-size do elemento pai
+    - rem => Baseado no primeiro elemento que estiver na estrutura
+
+    Valor padrão font-size : 16px
+
+*/
