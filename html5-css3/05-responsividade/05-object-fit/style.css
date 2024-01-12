@@ -1,0 +1,5 @@
+img{
+  width: 600px;
+  height: 600px;
+  object-fit: scale-down; /* fill -> Padrão | contain -> preenche mas não distorce | cover -> mantém a imagem, porém corta para manter a proporção | none -> manter imagem tamanho original, diferença do cover é que none corta direto, não rediciona | scale-dorwn -> similar ao contein, diminuir a imagem para caber*/
+}
