@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B7WEB - CURSO HTML5 E CSS3 - 07 Flexbox - 02 Alinhamentos</title>
+  <style>
+    .container{
+      display: flex;
+      /* Alinhamento em linha/horizontal.  */
+      justify-content: center;
+      /* Alinhamento vertical */
+      align-items: center;
+      /* flex-wrap: wrap; default : nowrap */
+      /* Atalhos para definir o direction como wrap */
+      flex-flow: row wrap;
+      background-color: #DDD;
+    }
+
+    .container div{
+      width: 100px;
+      background-color: #FF0000;
+      margin: 10px;
+      padding: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="div">1</div>
+    <div class="div">2</div>
+    <div class="div">3</div>
+  </div>
+
+</body>
+</html>
