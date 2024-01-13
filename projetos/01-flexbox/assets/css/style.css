@@ -276,3 +276,33 @@ footer .widget_title_text{
   color: white;
   margin-top: 30px;
 }
+
+footer .widget_body{
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: #999;
+}
+.footer_address_title,
+.footer_address_text_address{
+  color: #999;
+}
+
+.footer_address_title{
+  margin-top: 10px;
+}
+.footer_address_text_address{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.endereco,
+.contato{
+  font-size: 12px;
+}
+.endereco ul,
+.contato ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
