@@ -19,3 +19,18 @@ $valores = array_values($array);
     </tr>
   <?php endforeach; ?>
 </table>
+
+<table border="1">
+
+  <tr>
+    <?php foreach ($chaves as $chave) : ?>
+      <th> <?= $chave; ?></th>
+    <?php endforeach; ?>
+  </tr>
+  <tr>
+    <?php foreach ($valores as $valor) : ?>
+      <td><?= $valor; ?></td>
+    <?php endforeach; ?>
+  </tr>
+
+</table>
