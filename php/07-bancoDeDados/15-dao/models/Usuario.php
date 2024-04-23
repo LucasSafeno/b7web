@@ -29,7 +29,7 @@ class Usuario
     return $this->email;
   }
 
-  public function setEmal($e)
+  public function setEmail($e)
   {
     $this->email = strtolower(trim($e));
   }
