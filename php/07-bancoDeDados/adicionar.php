@@ -1,3 +1,4 @@
+<h1>Adicionar Usuário</h1>
 <form action="adicionar_action.php" method="post">
   <label for="nome">Nome:<br>
     <input type="text" name="name">

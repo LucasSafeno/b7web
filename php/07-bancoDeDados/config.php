@@ -1,6 +1,6 @@
 <?php
 $db_name      = "test";
-$db_user      = "safeno";
+$db_user      = "root";
 $db_password  = "root";
 $db_host      = "localhost";
 
