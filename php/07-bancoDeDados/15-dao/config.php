@@ -1,5 +1,5 @@
 <?php
-$db_name      = "test";
+$db_name      = "dao";
 $db_user      = "root";
 $db_password  = "root";
 $db_host      = "localhost";
