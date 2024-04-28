@@ -20,7 +20,18 @@ class HomeController extends Controller
 
     public function index()
     {
-        $this->render('home', ['nome' => 'Lucas']);
+        $posts = [
+            ['titulo' => 'Titulo teste 1', 'corpo' => 'Corpo teste 1 '],
+            ['titulo' => 'Titulo teste 2', 'corpo' => 'Corpo teste 2 '],
+            ['titulo' => 'Titulo teste 3', 'corpo' => 'Corpo teste 3 '],
+            ['titulo' => 'Titulo teste 4', 'corpo' => 'Corpo teste 4 '],
+            ['titulo' => 'Titulo teste 5', 'corpo' => 'Corpo teste 5 ']
+        ];
+        $this->render('home', [
+            'nome' => 'Lucas',
+            'idade' => 29,
+            'posts' => $posts
+        ]);
     }
 
     public function sobre()
