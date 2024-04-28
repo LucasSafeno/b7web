@@ -10,7 +10,12 @@ class HomeController extends Controller
 
     public function fotos()
     {
-        $test = new Test();
+        $this->render('fotos');
+    }
+
+    public function foto($parametros)
+    {
+        echo "Acessando a foto:" . $parametros['id'];
     }
 
     public function index()
