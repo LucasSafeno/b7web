@@ -33,5 +33,15 @@ class UsuariosController extends Controller
     }
     // redirect /novo
     $this->redirect('/novo');
-  }
+  } // addAction
+
+  public function edit($args)
+  {
+  } // edit
+
+  public function del($args)
+  {
+  } // del
+
+
 }
