@@ -63,6 +63,8 @@ class UsuariosController extends Controller
 
   public function del($args)
   {
+    Usuario::delete()->where('id', $args['id'])->execute();
+    $this->redirect('/');
   } // del
 
 
